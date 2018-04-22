@@ -1,64 +1,12 @@
 <!DOCTYPE html>
 <html>
-<body>
-	<script src="https://cdn.plyr.io/3.2.0/plyr.js"></script>
-
-	<link rel="stylesheet" href="https://cdn.plyr.io/3.2.0/plyr.css">
-
-  Machineheart - Circles ft. Vanic
-<audio id="player" controls>
-    <source src="https://shoemakk.com/circles/Machineheart%20-%20Circles%20ft.%20Vanic.mp3" type="audio/mp3">
-   </audio>
-	<script>
-		(function() { 
-  // This is the bare minimum JavaScript. You can opt to pass no arguments to setup.
-  // e.g. just plyr.setup(); and leave it at that if you have no need for events
-  var instances = plyr.setup({
-    // Output to console
-    debug: true
-  });
-
-  // Get an element
-  function get(selector) {
-    return document.querySelector(selector);
-  }
-
-  // Custom event handler (just for demo)
-  function on(element, type, callback) {
-    if (!(element instanceof HTMLElement)) {
-      element = get(element);
-    }
-    element.addEventListener(type, callback, false);
-  }
-
-  // Loop through each instance
-  instances.forEach(function(instance) {
-    // Play
-    on('.js-play', 'click', function() { 
-      instance.play();
-    });
-    
-    // Pause
-    on('.js-pause', 'click', function() { 
-      instance.pause();
-    });
-    
-    // Stop
-    on('.js-stop', 'click', function() { 
-      instance.stop();
-    });
-    
-    // Rewind
-    on('.js-rewind', 'click', function() { 
-      instance.rewind();
-    });
-    
-    // Forward
-    on('.js-forward', 'click', function() { 
-      instance.forward();
-    });
-  });
-})();
-		</script>
-</body>
-</html>
+ <head>
+ <title>afterglow player</title>
+ <script type="text/javascript" src="//cdn.jsdelivr.net/afterglow/latest/afterglow.min.js"></script>
+ </head>
+ <body>
+ <video class="afterglow" id="myvideo" width="1280" height="720">
+ <source type="video/mp3" src="https://shoemakk.com/circles/Machineheart%20-%20Circles%20ft.%20Vanic.mp3" />
+ </video>
+ </body>
+<html>
