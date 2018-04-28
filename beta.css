@@ -373,7 +373,7 @@ h1, h2, h3, p {
     padding: 0;
     letter-spacing: 0;
     font-size: 1.25em;
-    width: calc(100% + 0.25 rem);
+    width: calc(100% + 0.25rem);
     margin-left: -0.1875rem;
 }
 .icons li {
