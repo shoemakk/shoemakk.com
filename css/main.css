@@ -1,4 +1,3 @@
-<style>
 @font-face{
 	font-family:'CarrdIcons';
 	src:url('/fonts/icons.ttf') format('truetype'), url('/fonts/icons.woff') format('woff'), url('https://shoemakk.com/fonts/icons.svg?mgny86#CarrdIcons') format('svg');
@@ -719,4 +718,3 @@ hr:before{
 .css-selector{
 	font-family:'Source+Sans+Pro', serif
 }
-</style>
