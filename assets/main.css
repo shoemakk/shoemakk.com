@@ -2,7 +2,7 @@
 	font-family: 'Source Sans Pro';
 	font-style: normal;
 	font-weight: 300;
-	src: local('Source Sans Pro Light'), local('SourceSansPro-Light'), url(https://shoemakk.com/assets/fonts/font.woff2) format('woff2');
+	src: local('Source Sans Pro Light'), local('SourceSansPro-Light'), url(https://fonts.gstatic.com/s/sourcesanspro/v11/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwlxdu.woff2) format('woff2');
 }
 body {
 background: rgb(0,0,0);
