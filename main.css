@@ -10,7 +10,7 @@ body{
 }
 
 .icon:before{
-    font-family:'icons' !important;
+    font-family:'FontAwesome' !important;
     speak:none;
     font-style:normal;
     font-weight:normal;
