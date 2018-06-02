@@ -8,12 +8,7 @@ body{
     background:rgb(0,0,0);
     background:linear-gradient(45deg, rgba(0,0,0,1) 0%, rgba(255,255,255,1) 100%);
 }
-@font-face{
-    font-family:'icons';
-    src:url('https://shoemakk.com/assets/fonts/icon.ttf') format('truetype');
-    font-weight:normal;
-    font-style:normal
-}
+
 .icon:before{
     font-family:'icons' !important;
     speak:none;
@@ -25,7 +20,7 @@ body{
     -moz-osx-font-smoothing:grayscale
 }
 .icon-901:before{
-    content:'\e901'
+    content:'\f099'
 }
 .icon-902:before{
     content:'\e902'
