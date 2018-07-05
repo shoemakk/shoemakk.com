@@ -1,5 +1,21 @@
-
- @font-face{
+ #bg {
+     position: fixed;
+     top: -50%;
+     left: -50%;
+     width: 200%;
+     height: 200%;
+}
+ #bg img {
+     position: absolute;
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     margin: auto;
+     min-width: 50%;
+     min-height: 50%;
+}
+@font-face{
     font-family:'Source Sans Pro';
     font-style:normal;
     font-weight:300;
@@ -125,30 +141,6 @@ a{
 }
 s{
     text-decoration:line-through
-}
-body:before {
-    content: '';
-    display: block;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    z-index: 0;
-    -moz-pointer-events: none;
-    -webkit-pointer-events: none;
-    -ms-pointer-events: none;
-    pointer-events: none;
-    -moz-transform: scale(1);
-    -webkit-transform: scale(1);
-    -ms-transform: scale(1);
-    transform: scale(1);
-    background-image: linear-gradient(60deg, rgba(255,165,150,0.502) 9%, rgba(0,228,255,0.353) 100%), url('https://picsum.photos/1000/563/?blur&random');
-    background-position: 0% 0%, center;
-    background-repeat: repeat, no-repeat;
-    background-size: cover, cover;
-    background-attachment: scroll;
-    background-color: #FFFFFF;
 }
 body:before{
     display:block;
