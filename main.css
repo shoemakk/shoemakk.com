@@ -68,8 +68,34 @@ body{
 }
 ol,ul{
     list-style:none
+}
+blockquote,q{
+    quotes:none
+}
+blockquote:before,blockquote:after,q:before,q:after{
+    content:'';
+    content:none
+}
+table{
+    border-collapse:collapse;
+    border-spacing:0
+}
 body{
     -webkit-text-size-adjust:none
+}
+mark{
+    background-color:transparent;
+    color:inherit
+}
+input::-moz-focus-inner{
+    border:0;
+    padding:0
+}
+input,select,textarea{
+    -moz-appearance:none;
+    -webkit-appearance:none;
+    -ms-appearance:none;
+    appearance:none
 }
 *,*:before,*:after{
     box-sizing:border-box
@@ -268,6 +294,27 @@ h1 .li, h2 .li, h3 .li, p .li {
     display: list-item;
     padding-left: 0.5em;
     margin: 0.75em 0 0 1em;
+}
+#credits {
+    letter-spacing: 0.35rem;
+    width: calc(100% + 0.35rem);
+    font-size: 0.8em;
+    cursor: default;
+    margin-top: 1rem !important;
+}
+#credits a {
+    text-decoration: underline;
+    -moz-transition: opacity 0.25s ease;
+    -webkit-transition: opacity 0.25s ease;
+    -ms-transition: opacity 0.25s ease;
+    transition: opacity 0.25s ease;
+    opacity: 0.5;
+    text-decoration: none !important;
+}
+#credits a:hover {
+    text-decoration: none;
+    opacity: 1;
+    text-decoration: none !important;
 }
 h1, h2, h3, p {
     color: #C8CCCF;
