@@ -70,9 +70,6 @@ html,body,div,li,hr,ul,p{
 body{
     line-height:1
 }
-ol,ul{
-    list-style:none
-}
 body{
     -webkit-text-size-adjust:none
 }
