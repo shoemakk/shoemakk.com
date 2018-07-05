@@ -19,7 +19,7 @@
     font-family:'Source Sans Pro';
     font-style:normal;
     font-weight:300;
-    src:local('Source Sans Pro Light'), local('SourceSansPro-Light'), url(https://shoemakk.com/assets/fonts/font.woff2) format('woff2');
+    src:local('Source Sans Pro Light'), local('SourceSansPro-Light'), url(https://shoemakk.com/assets/fonts/text.woff2) format('woff2');
 }
 body{
     background:rgb(0,0,0);
