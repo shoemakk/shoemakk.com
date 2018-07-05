@@ -24,7 +24,6 @@
 body{
     background:rgb(0,0,0);
     background:linear-gradient(45deg, rgba(0,0,0,1) 0%, rgba(255,255,255,1) 100%);
-    background-image: linear-gradient(60deg, rgba(255,165,150,0.502) 9%, rgba(0,228,255,0.353) 100%);
 }
 @font-face{
     font-family:'icons';
@@ -272,7 +271,6 @@ h1 br + br,p br + br{
     margin-top:0.9rem
 }
 #text{
-    text-transform:uppercase;
     color:#313F47;
     font-family:'Source Sans Pro';
     position:relative;
@@ -281,9 +279,6 @@ h1 br + br,p br + br{
     font-size:1.5em;
     line-height:1.5;
     font-weight:300
-}
-#credits br + br{
-    margin-top:0.9rem
 }
 hr{
     width:100%;
