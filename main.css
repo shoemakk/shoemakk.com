@@ -246,13 +246,6 @@ html{
 #main > .inner > .video{
     margin:1.25rem 0
 }
-body.is-loading #main{
-    opacity:0;
-    -moz-transform:perspective(1000px) rotateX(15deg);
-    -webkit-transform:perspective(1000px) rotateX(15deg);
-    -ms-transform:perspective(1000px) rotateX(15deg);
-    transform:perspective(1000px) rotateX(15deg)
-}
 .image {
     position: relative;
     overflow: hidden;
