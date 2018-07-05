@@ -253,39 +253,6 @@ body.is-loading #main{
     -ms-transform:perspective(1000px) rotateX(15deg);
     transform:perspective(1000px) rotateX(15deg)
 }
-#credits{
-    cursor:default;
-    margin-top:1rem !important;
-    width:-moz-max-content;
-    width:-webkit-max-content;
-    width:-ms-max-content;
-    width:max-content;
-    margin-left:auto !important;
-    margin-right:auto !important;
-    text-transform:uppercase;
-    color:#313F47;
-    font-family:'Source Sans Pro';
-    position:relative;
-    letter-spacing:0.35rem;
-    left:0.175rem;
-    font-size:0.8em;
-    line-height:1.5;
-    font-weight:300
-}
-#credits a{
-    -moz-transition:opacity 0.25s ease;
-    -webkit-transition:opacity 0.25s ease;
-    -ms-transition:opacity 0.25s ease;
-    transition:opacity 0.25s ease;
-    opacity:0.5;
-    text-decoration:none !important;
-    text-decoration:underline
-}
-#credits a:hover{
-    opacity:1;
-    text-decoration:none !important;
-    text-decoration:none
-}
 .image {
     position: relative;
     overflow: hidden;
