@@ -1,0 +1,27 @@
+<html>
+<head>
+<title>News 12 LI - Live Stream</title>
+<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+<link href="https://unpkg.com/video.js/dist/video-js.css" rel="stylesheet">
+<link href="https://shoemakk.com/assets/css/videojs.css" rel="stylesheet">
+<script src="https://unpkg.com/video.js/dist/video.js"></script>
+<script src="https://unpkg.com/videojs-flash/dist/videojs-flash.js"></script>
+<script src="https://unpkg.com/videojs-contrib-hls/dist/videojs-contrib-hls.js"></script>
+</head>
+<div class="video-container">
+<center>
+<video id="news12li-live" class="video-js vjs-default-skin vjs-fill"  
+        width="100%" height="100%"
+        controls preload="metadata"
+        data-setup='{}'>
+  <source
+     src="https://news12.shoemakk.com/news12/nipadlive/index_new.m3u8?cdnHost=news12-cdn.shoemakk.com&callsign=N12LI_EAST"
+     type="application/x-mpegURL">
+</video>
+</center>
+<script>
+var player = videojs('news12li-live');
+player.play();
+</script>
+</div>
+</html>
