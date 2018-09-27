@@ -1,0 +1,36 @@
+.url-box {
+    cursor: pointer;
+    display: block;
+    float: middle;  
+    z-index: 2;
+  position: fixed;
+  left: 50%;
+  bottom: 20px;
+  transform: translate(-50%, -50%);
+  margin: 0 auto;
+}
+.video-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+}
+.video-container > video {
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+@media screen and (max-aspect-ratio: 1920/1080) {
+  .video-container > video {
+    height: 100%;
+  }
+}
+@media screen and (min-aspect-ratio: 1920/1080) {
+  .video-container > video {
+    width: 100%;
+  }
+}
