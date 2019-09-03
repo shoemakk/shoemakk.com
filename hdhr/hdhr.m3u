@@ -7,9 +7,9 @@ http://10.0.0.220:5004/auto/v5058
 http://10.0.0.220:5004/auto/v5059
 #EXTINF:-1 tvg-id="ABCWABC.us" tvg-name="ABC NY US" tvg-logo="http://static.iptv-epg.com/us/ABCWABC.us.png" tvg-chno="4" channel-id="4" group-title="(No group)",ABC 7 NY
 http://10.0.0.220:5004/auto/v5015
-#EXTINF:-1 tvg-id="News18Lokmat.in" tvg-name="News 18 Lokmat IN" tvg-logo="http://static.iptv-epg.com/in/News18Lokmat.in.png" tvg-chno="5" channel-id="5" group-title="(No group)",NEWS 12 Long Island
+#EXTINF:-1 tvg-id="" tvg-name="News 12 Long Island" tvg-logo="https://NEWS12LI.images.worldnow.com/images/static/hdr/hdr_branding.jpg" tvg-chno="5" channel-id="12" group-title="(No group)",NEWS 12 Long Island
 http://10.0.0.220:5004/auto/v5055
-#EXTINF:-1 tvg-id="News18Lokmat.in" tvg-name="News 18 Lokmat IN" tvg-logo="http://static.iptv-epg.com/in/News18Lokmat.in.png" tvg-chno="6" channel-id="6" group-title="(No group)",NEWS 12   Long Island
+#EXTINF:-1 tvg-id="" tvg-name="News 12 Long Island +" tvg-logo="https://NEWS12LI.images.worldnow.com/images/static/hdr/hdr_branding.jpg" tvg-chno="6" channel-id="61" group-title="(No group)",NEWS 12   Long Island
 http://10.0.0.220:5004/auto/v5027
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" tvg-chno="7" channel-id="7" group-title="(No group)",MY 9 NY
 http://10.0.0.220:5004/auto/v5063
@@ -17,7 +17,7 @@ http://10.0.0.220:5004/auto/v5063
 http://10.0.0.220:5004/auto/v5064
 #EXTINF:-1 tvg-id="ION.us" tvg-name="ION US" tvg-logo="http://static.iptv-epg.com/us/ION.us.png" tvg-chno="9" channel-id="9" group-title="(No group)",ION
 http://10.0.0.220:5004/auto/v5023
-#EXTINF:-1 tvg-id="TVN7.pl" tvg-name="TVN 7" tvg-logo="http://static.iptv-epg.com/pl/TVN7.pl.png" tvg-chno="10" channel-id="10" group-title="(No group)",ME TV
+#EXTINF:-1 tvg-id="TVN7.pl" tvg-name="" tvg-logo"" tvg-chno="10" channel-id="10" group-title="(No group)",ME TV
 http://10.0.0.220:5004/auto/v5073
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" tvg-chno="11" channel-id="11" group-title="(No group)",PBS
 http://10.0.0.220:5004/auto/v5048
