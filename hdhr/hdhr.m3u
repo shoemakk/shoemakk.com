@@ -1,25 +1,25 @@
 #EXTM3U url-tvg="http://iptv-epg.com/f4f2-2sra2k.xml" x-tvg-url="http://iptv-epg.com/f4f2-2sra2k.xml"
-#EXTINF:-1 tvg-id="CBSWCBS.us" tvg-name="CBS NY US" tvg-logo="http://static.iptv-epg.com/us/CBSWCBS.us.png" tvg-chno="1" channel-id="1" group-title="(No group)",CBS 2 NY
+#EXTINF:-1 tvg-id="CBSWCBS.us" tvg-name="CBS NY US" tvg-logo="http://static.iptv-epg.com/us/CBSWCBS.us.png" tvg-chno="2" channel-id="2" group-title="(No group)",CBS 2 NY
 http://10.0.0.220:5004/auto/v5047
-#EXTINF:-1 tvg-id="NBCWNBC.us" tvg-name="NBC NY US" tvg-logo="http://static.iptv-epg.com/us/NBCWNBC.us.png" tvg-chno="2" channel-id="2" group-title="(No group)",NBC 4 NY
+#EXTINF:-1 tvg-id="NBCWNBC.us" tvg-name="NBC NY US" tvg-logo="http://static.iptv-epg.com/us/NBCWNBC.us.png" tvg-chno="4" channel-id="4" group-title="(No group)",NBC 4 NY
 http://10.0.0.220:5004/auto/v5058
-#EXTINF:-1 tvg-id="FOXWNYW.us" tvg-name="FOX NY US" tvg-logo="http://static.iptv-epg.com/us/FOXWNYW.us.png" tvg-chno="3" channel-id="3" group-title="(No group)",FOX 5 NY
+#EXTINF:-1 tvg-id="FOXWNYW.us" tvg-name="FOX NY US" tvg-logo="http://static.iptv-epg.com/us/FOXWNYW.us.png" tvg-chno="5" channel-id="5" group-title="(No group)",FOX 5 NY
 http://10.0.0.220:5004/auto/v5059
-#EXTINF:-1 tvg-id="ABCWABC.us" tvg-name="ABC NY US" tvg-logo="http://static.iptv-epg.com/us/ABCWABC.us.png" tvg-chno="4" channel-id="4" group-title="(No group)",ABC 7 NY
+#EXTINF:-1 tvg-id="ABCWABC.us" tvg-name="ABC NY US" tvg-logo="http://static.iptv-epg.com/us/ABCWABC.us.png" tvg-chno="7" channel-id="7" group-title="(No group)",ABC 7 NY
 http://10.0.0.220:5004/auto/v5015
-#EXTINF:-1 tvg-id="" tvg-name="News 12 Long Island" tvg-logo="https://NEWS12LI.images.worldnow.com/images/static/hdr/hdr_branding.jpg" tvg-chno="5" channel-id="12" group-title="(No group)",NEWS 12 Long Island
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://cdn.newsday.com/polopoly_fs/1.3202638.1386946148!/httpImage/image.png_gen/derivatives/landscape_768/image.png" tvg-chno="12" channel-id="12" group-title="(No group)",NEWS 12 Long Island
 http://10.0.0.220:5004/auto/v5055
-#EXTINF:-1 tvg-id="" tvg-name="News 12 Long Island +" tvg-logo="https://NEWS12LI.images.worldnow.com/images/static/hdr/hdr_branding.jpg" tvg-chno="6" channel-id="61" group-title="(No group)",NEWS 12   Long Island
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://cdn.newsday.com/polopoly_fs/1.3202638.1386946148!/httpImage/image.png_gen/derivatives/landscape_768/image.png" tvg-chno="61" channel-id="61" group-title="(No group)",NEWS 12+ Long Island
 http://10.0.0.220:5004/auto/v5027
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" tvg-chno="7" channel-id="7" group-title="(No group)",MY 9 NY
+#EXTINF:-1 tvg-id="My9WWOR.us" tvg-name="my9 New Jersey US" tvg-logo="http://static.iptv-epg.com/us/My9WWOR.us.png" tvg-chno="9" channel-id="9" group-title="(No group)",MY 9 NY
 http://10.0.0.220:5004/auto/v5063
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" tvg-chno="8" channel-id="8" group-title="(No group)",WPIX 11 NY
+#EXTINF:-1 tvg-id="WPIX.us" tvg-name="Pix 11 US" tvg-logo="http://static.iptv-epg.com/us/WPIX.us.png" tvg-chno="11" channel-id="11" group-title="(No group)",WPIX 11 NY
 http://10.0.0.220:5004/auto/v5064
-#EXTINF:-1 tvg-id="ION.us" tvg-name="ION US" tvg-logo="http://static.iptv-epg.com/us/ION.us.png" tvg-chno="9" channel-id="9" group-title="(No group)",ION
+#EXTINF:-1 tvg-id="ION.us" tvg-name="ION US" tvg-logo="http://static.iptv-epg.com/us/ION.us.png" tvg-chno="15" channel-id="15" group-title="(No group)",ION
 http://10.0.0.220:5004/auto/v5023
-#EXTINF:-1 tvg-id="TVN7.pl" tvg-name="" tvg-logo"" tvg-chno="10" channel-id="10" group-title="(No group)",ME TV
+#EXTINF:-1 tvg-id="MeTVWJLP.us" tvg-name="MeTV New Jersey US" tvg-logo="http://static.iptv-epg.com/us/MeTVWJLP.us.png" tvg-chno="33" channel-id="33" group-title="(No group)",ME TV
 http://10.0.0.220:5004/auto/v5073
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" tvg-chno="11" channel-id="11" group-title="(No group)",PBS
+#EXTINF:-1 tvg-id="PBSThirteenWNET.us" tvg-name="PBS Thirteen US" tvg-logo="http://static.iptv-epg.com/us/PBSThirteenWNET.us.png" tvg-chno="13" channel-id="13" group-title="(No group)",PBS
 http://10.0.0.220:5004/auto/v5048
-#EXTINF:-1 tvg-id="ThisTV.us" tvg-name="This TV US" tvg-logo="http://static.iptv-epg.com/us/ThisTV.us.png" tvg-chno="12" channel-id="12" group-title="(No group)",THIS TV
+#EXTINF:-1 tvg-id="ThisTV.us" tvg-name="This TV US" tvg-logo="http://static.iptv-epg.com/us/ThisTV.us.png" tvg-chno="16" channel-id="16" group-title="(No group)",THIS TV
 http://10.0.0.220:5004/auto/v5061
