@@ -1,25 +1,25 @@
-#EXTM3U
-#EXTINF:0,CBS 2
+#EXTM3U url-tvg="http://iptv-epg.com/f4f2-2sra2k.xml" x-tvg-url="http://iptv-epg.com/f4f2-2sra2k.xml"
+#EXTINF:-1 tvg-id="CBSWCBS.us" tvg-name="CBS NY US" tvg-logo="http://static.iptv-epg.com/us/CBSWCBS.us.png" tvg-chno="1" channel-id="1" group-title="(No group)",CBS 2 NY
 http://10.0.0.220:5004/auto/v5047
-#EXTINF:0,NBC 4
+#EXTINF:-1 tvg-id="NBCWNBC.us" tvg-name="NBC NY US" tvg-logo="http://static.iptv-epg.com/us/NBCWNBC.us.png" tvg-chno="2" channel-id="2" group-title="(No group)",NBC 4 NY
 http://10.0.0.220:5004/auto/v5058
-#EXTINF:0,FOX 5
+#EXTINF:-1 tvg-id="FOXWNYW.us" tvg-name="FOX NY US" tvg-logo="http://static.iptv-epg.com/us/FOXWNYW.us.png" tvg-chno="3" channel-id="3" group-title="(No group)",FOX 5 NY
 http://10.0.0.220:5004/auto/v5059
-#EXTINF:0,ABC 7
+#EXTINF:-1 tvg-id="ABCWABC.us" tvg-name="ABC NY US" tvg-logo="http://static.iptv-epg.com/us/ABCWABC.us.png" tvg-chno="4" channel-id="4" group-title="(No group)",ABC 7 NY
 http://10.0.0.220:5004/auto/v5015
-#EXTINF:0,NEWS12 LI
+#EXTINF:-1 tvg-id="News18Lokmat.in" tvg-name="News 18 Lokmat IN" tvg-logo="http://static.iptv-epg.com/in/News18Lokmat.in.png" tvg-chno="5" channel-id="5" group-title="(No group)",NEWS 12 Long Island
 http://10.0.0.220:5004/auto/v5055
-#EXTINF:0,NEWS12+ 
+#EXTINF:-1 tvg-id="News18Lokmat.in" tvg-name="News 18 Lokmat IN" tvg-logo="http://static.iptv-epg.com/in/News18Lokmat.in.png" tvg-chno="6" channel-id="6" group-title="(No group)",NEWS 12   Long Island
 http://10.0.0.220:5004/auto/v5027
-#EXTINF:0,MY 9
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" tvg-chno="7" channel-id="7" group-title="(No group)",MY 9 NY
 http://10.0.0.220:5004/auto/v5063
-#EXTINF:0,PIX 11
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" tvg-chno="8" channel-id="8" group-title="(No group)",WPIX 11 NY
 http://10.0.0.220:5004/auto/v5064
-#EXTINF:0,ION
+#EXTINF:-1 tvg-id="ION.us" tvg-name="ION US" tvg-logo="http://static.iptv-epg.com/us/ION.us.png" tvg-chno="9" channel-id="9" group-title="(No group)",ION
 http://10.0.0.220:5004/auto/v5023
-#EXTINF:0,ME TV
+#EXTINF:-1 tvg-id="TVN7.pl" tvg-name="TVN 7" tvg-logo="http://static.iptv-epg.com/pl/TVN7.pl.png" tvg-chno="10" channel-id="10" group-title="(No group)",ME TV
 http://10.0.0.220:5004/auto/v5073
-#EXTINF:0,PBS
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" tvg-chno="11" channel-id="11" group-title="(No group)",PBS
 http://10.0.0.220:5004/auto/v5048
-#EXTINF:0,THIS TV
+#EXTINF:-1 tvg-id="ThisTV.us" tvg-name="This TV US" tvg-logo="http://static.iptv-epg.com/us/ThisTV.us.png" tvg-chno="12" channel-id="12" group-title="(No group)",THIS TV
 http://10.0.0.220:5004/auto/v5061
