@@ -1,1 +1,22 @@
-<iframe src=""https://open.spotify.com/embed/playlist/4tegzE0BCkUQ7Ns1Q3sdpR" onload="this.width=screen.width;this.height=screen.height;" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<html>
+<style>
+.iframe-container {
+  overflow: hidden;
+  // Calculated from the aspect ration of the content (in case of 16:9 it is 9/16= 0.5625)
+  padding-top: 56.25%;
+  position: relative;
+}
+ 
+.iframe-container iframe {
+   border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;
+}
+</style>
+<div class="iframe-container">
+  <iframe src="https://open.spotify.com/embed/playlist/4tegzE0BCkUQ7Ns1Q3sdpR" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+</div>
+</html>
