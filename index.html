@@ -10,7 +10,7 @@
     <div id=wrapper>
           <div id=main>
             <div class=inner>
-                <div class=image id=image> <a target=_blank href="https://twitter.com/shoemakk"><picture><source type="image/webp" srcset="https://shoemakk.com/assets/images/avatar.webp"/><img src="https://shoemakk.com/assets/images/avatar.jpg" alt="Click for Twitter"/></picture></a></div>
+                <div class=image id=image> <a target=_blank rel="noreferrer" href="https://twitter.com/shoemakk"><picture><source type="image/webp" srcset="https://shoemakk.com/assets/images/avatar.webp"/><img src="https://shoemakk.com/assets/images/avatar.jpg" alt="Click for Twitter"/></picture></a></div>
                 <h1 id=text>shoemakk</h1>
                 <hr id=divider>
                 <ul class=icons id=icons>
@@ -37,13 +37,15 @@ background-size: cover;
     font-family:source sans pro;
     font-style:normal;
     font-weight:300;
-    src:local('Source Sans Pro Light'),local('SourceSansPro-Light'),url(https://shoemakk.com/assets/fonts/text.woff2) format('woff2')
+    src:local('Source Sans Pro Light'),local('SourceSansPro-Light'),url(https://shoemakk.com/assets/fonts/text.woff2) format('woff2');
+    font-display: swap;
 }
 @font-face{
     font-family:icons;
     src:url(https://shoemakk.com/assets/fonts/icons.ttf) format('truetype');
     font-weight:400;
-    font-style:normal
+    font-style:normal;
+    font-display: swap;
 }
 .icon:before{
     font-family:icons!important;
