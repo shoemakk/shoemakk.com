@@ -15,7 +15,7 @@
          <height>114</height>
          <width>114</width>
       </image>
-      <atom:link href="http://sample-firetv-web-app.s3-website-us-west-2.amazonaws.com/feed.xml" rel="self" type="application/rss+xml" />
+      <atom:link href="http:/shoemakk.com/hls/mrss.xml" rel="self" type="application/rss+xml" />
       <item>
          <title>Shade</title>
          <pubDate>Mon, 23 Oct 2017 00:00:00 -0700</pubDate>
@@ -24,7 +24,7 @@
          <guid isPermaLink="false">http://sample-firetv-web-app.s3-website-us-west-2.amazonaws.com/shade/</guid>
          <media:category>All</media:category>
          <media:category>Trail</media:category>
-         <media:content url="https://mdc.ott.alticeusa.net/live4.ott.optimum.net/live4-uploads/N12LH_WEST_A1/index_new.m3u8?omap=https" language="en-us" fileSize="37000000" duration="120.0" medium="video" isDefault="true">
+         <media:content url="https://mdc.ott.alticeusa.net/live4.ott.optimum.net/live4-uploads/N12LH_WEST_A1/index_new.m3u8?omap=https" "type="application/x-mpegURL" "language="en-us" medium="video" isDefault="true">
             <media:title type="plain">Shade</media:title>
             <media:description type="html">Quiet the mind, and the soul will speak. - Ma Jaya Sati Bhagavati</media:description>
             <media:thumbnail url="http://sample-firetv-web-app.s3-website-us-west-2.amazonaws.com/images/thumbs/shade.jpg" />
